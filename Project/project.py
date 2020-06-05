@@ -7,6 +7,7 @@ import glob
 #https://towardsdatascience.com/easy-steps-to-plot-geographic-data-on-a-map-python-11217859a2db
 #https://marinecadastre.gov/ais/
 '''
+#COMBINE DATASETS INTO ONE
 extension = 'csv'
 all_filenames = [i for i in glob.glob('*.{}'.format(extension))]
 
